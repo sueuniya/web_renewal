@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>IKEA</title>
+
+  <link href="imgs/ikea-logo.png" rel="shortcut icon" type="image/x-icon" > 
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+ 
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/index.css">
+  
+  <script src="js/jquery-1.12.3.js"></script>  
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+  <script src="js/custom.js"></script>
+  
+  
+</head>
+<body>
+
+  <header>
+    <div class="inner">
+      <h1 class="logo">
+        <a href="">
+          <span class="blind">이케아</span>
+        </a>
+      </h1>
+      <nav>
+        <ul class="nav_main nav">
+          <li><a href="#">All Product</a>
+            <div class="sub">
+              <div class="inner">
+                <ul> 
+                  <li><a href="#"><span>지속가능한 제품</span><i class="fi-rs-angle-small-right"></i></a></li>
+                  <li><a href="#"><span>홈스마트</span><i class="fi-rs-angle-small-right"></i></a></li>
+                  <li><a href="#">스마트 조명</a></li>
+                  <li><a href="#">전동 블라인드</a></li>
+                  <li><a href="#">리모콘/무선장치</a></li>
+                  <li><a href="#">스마트 시스템</a></li>
+                  <li><a href="#"><span>침대/매트리스</span><i class="fi-rs-angle-small-right"></i></a></li>
+                  <li><a href="#">침대</a></li>
+                  <li><a href="#">침구</a></li>
+                  <li><a href="#">침대헤드</a></li>
+                  <li><a href="#">침대수납</a></li>          
+                </ul>
+                <ul>                
+                  <li><a href="#"><span>가구</span><i class="fi-rs-angle-small-right"></i></a></li>
+                  <li><a href="#">가구세트</a></li>
+                  <li><a href="#">침대</a></li>
+                  <li><a href="#">소파</a></li>
+                  <li><a href="#">책상/선반유닛</a></li>
+                  <li><a href="#">식탁/책상</a></li>
+                  <li><a href="#">수납장/장식장</a></li>
+                  <li><a href="#">옷장</a></li>
+                  <li><a href="#">의자</a></li>
+                  <li><a href="#">TV/멀티미디어가구</a></li>
+                  <li><a href="#">칸막이/파티션</a></li>
+                </ul>
+                <ul>
+                  <li><a href="#"><span>수납/정리</span><i class="fi-rs-angle-small-right"></i></a></li>
+                  <li><a href="#">책상/선반유닛</a></li>
+                  <li><a href="#">수납 솔루션 시스템</a></li>
+                  <li><a href="#">수납장/장식장</a></li>
+                  <li><a href="#">옷장</a></li>
+                  <li><a href="#">소형 수납/정리</a></li>
+                  <li><a href="#">거실장/찬장/콘솔테이블</a></li>
+                  <li><a href="#">스탠드 옷걸이/신발수납</a></li>
+                  <li><a href="#">이동식 선반</a></li>
+                  <li><a href="#">이동 보조상품</a></li>
+                  <li><a href="#">가방</a></li>
+                </ul>
+                <ul>
+                  <li><a href="#"><span>주방가구</span><i class="fi-rs-angle-small-right"></i></a></li>
+                  <li><a href="#">주방 부속품</a></li>
+                  <li><a href="#">주방 팬트리</a></li>
+                  <li><a href="#">주방 벽수납</a></li>
+                  <li><a href="#">주방 조리대</a></li>
+                  <li><a href="#">주방 가전</a></li>
+                  <li><a href="#">주방 아일랜드/카트</a></li>
+                  <li><a href="#">주방 손잡이</a></li>
+                  <li><a href="#">주방 조명</a></li>
+                  <li><a href="#">주방 싱크대/수도꼭지</a></li>
+                </ul>
+                <ul>
+                  <li><a href="#"><span>홈데코/장식품</span><i class="fi-rs-angle-small-right"></i></a></li>
+                  <li><a href="#">액자/그림/포스터</a></li>
+                  <li><a href="#">식물/조화</a></li>
+                  <li><a href="#">수납함/바구니</a></li>
+                  <li><a href="#">화분/꽃병/수반</a></li>
+                  <li><a href="#">거울</a></li>
+                  <li><a href="#">양초/홀더</a></li>
+                  <li><a href="#">장식용품</a></li>
+                  <li><a href="#">겨울용 소품</a></li>
+                  <li><a href="#">실내 향</a></li>
+                  <li><a href="#">시계</a></li>              
+                </ul>
+             </div>
+            </div>
+        </li>
+        <li><a href="#">Show rooms</a>
+          <div class="sub">
+            <div class="inner">
+              <ul class="sub-nav">
+                <li><a href="#"><span>디지털 쇼룸</span><i class="fi-rs-angle-small-right"></i></a></li>
+                <li onClick="sueun(0);"><a href="#">침실</a></li>
+                <li onClick="sueun(1);"><a href="#">거실</a></li>
+                <li><a href="#">주방</a></li>
+                <li><a href="#">다이닝</a></li>
+                <li><a href="#">어린이 IKEA</a></li>
+                <li><a href="#">욕실</a></li>
+                <li><a href="#">홈오피스</a></li>
+                <li><a href="#">현관</a></li>
+                <li><a href="#">아웃도어</a></li>
+                <li><a href="#">IKEA For Business</a></li>        
+              </ul>            
+              <div class="last">                
+                <img src="imgs/nav.webp" alt="img" width="350px">  
+                <strong>Make it Home<br> With Ikea</strong>
+                <a href="javascirpt:void(0)"><span class="btn">View more</span></a>
+              </div>
+             
+            </div>
+         </div>
+        </li>
+        <li><a href="#">Shop</a>
+          <div class="sub">
+            <div class="inner">
+              <ul>  
+                <li><a href="#"><span>쇼핑하기</span><i class="fi-rs-angle-small-right"></i></a></li>
+                <li><a href="#">전화 주문</a></li>
+                <li><a href="#">IKEA for Business</a></li>
+                <li><a href="#">셀프 플래닝</a></li>
+                <li><a href="#">IKEA 모바일 앱</a></li>
+                <li><a href="#">IKEA 카탈로그</a></li>
+                <li><a href="#">제품 사용 팁/가이드</a></li>
+                <li><a href="#">결제 옵션</a></li>
+                <li><a href="#">기프트 카드</a></li>
+              </ul>
+               
+            </div>
+          </div>
+        </li>  
+        </ul>
+        <ul class="nav_sub nav">
+          <li><a href="">Services</a>
+            <div class="sub">
+              <div class="inner">
+                <ul>  
+                  <li><a href="#"><span>Ikea 고객 혜택</span><i class="fi-rs-angle-small-right"></i></a></li>
+                  <li><a href="#">IKEA 서비스</a></li>
+                  <li><a href="#">배송 서비스</a></li>
+                  <li><a href="#">조립 서비스</a></li>
+                  <li><a href="#">주방 서비스</a></li>
+                  <li><a href="#">욕실 서비스</a></li>
+                  <li><a href="#">홈퍼니싱 플래닝 서비스</a></li>
+                  <li><a href="#">인테리어 디자인 서비스</a></li>
+                  <li><a href="#">바이백 서비스</a></li>
+                </ul>           
+                <ul>  
+                  <li><a href="#"><span>고객문의</span><i class="fi-rs-angle-small-right"></i></a></li>
+                  <li><a href="#">고객지원</a></li>
+                  <li><a href="#">자주 묻는 질문</a></li>
+                  <li><a href="#">문의하기</a></li>
+                  <li><a href="#">배송조회</a></li>
+                  <li><a href="#">교환환불</a></li>
+                  <li><a href="#">품질보증</a></li>
+                  <li><a href="#">제품리콜</a></li>
+                  <li><a href="#">제품 구매 가이드</a></li>
+                  <li><a href="#">피드백</a></li>
+                </ul>
+               
+              </div>
+          </div>
+          </li>
+          <li><a href="#">This is IKEA</a>
+            <div class="sub">
+              <div class="inner">
+                <ul>
+                  <li><a href="#"><span>IKEA 이야기</span><i class="fi-rs-angle-small-right"></i></a></li>
+                  <li><a href="#">브랜드 소개</a></li>
+                  <li><a href="#">집에서의 삶</a></li>
+                  <li><a href="#">지속가능한 생활</a></li>
+                  <li><a href="#">뉴스</a></li>
+                  <li><a href="#">채용정보</a></li>     
+                </ul>
+                <ul>
+                  <li><a href="#"><span>Ikea 매장</span><i class="fi-rs-angle-small-right"></i></a></li>
+                  <li><a href="#">매장 찾기</a></li>
+                  <li><a href="#">매장 위치</a></li>
+                </ul>              
+               
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <a href="" class="search"><i class="fi-rs-search"></i><span class="blind">search</span></a>
+    </div>
+  </header>
+
+  <main>    
+   
+    <section class="main-slide">
+      <div class="swiper main-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="imgs/main1-1.png" alt="Inspirational ideas for your baby or kids’ room">
+            <div class="txt_wrap">
+              <h2>Inspirational ideas for your baby or kids’ room</h2>
+              <span class="more_btn">View More</span> 
+            </div>  
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/main2-1.png" alt="Find the perfect Kitchen for you">
+            <div class="txt_wrap">
+              <h2>Find the perfect Kitchen for you</h2>
+              <span class="more_btn">View More</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/main3-1.png" alt="Taking care of business together">
+            <div class="txt_wrap">
+              <h2>Taking care of business together</h2>
+              <span class="more_btn">View More</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/main4-1.png" alt="Built in consideration for children">
+            <div class="txt_wrap">
+              <h2>Built in consideration for children</h2>
+              <span class="more_btn">View More</span>
+            </div>
+          </div>
+        </div>
+        <!-- imgs/outline_play_arrow_white_24dp.png
+        imgs/outline_pause_white_24dp.png -->
+        <div class="swiper-pagination"></div>
+        <div class="play-btn">
+          <!-- <div class="start">
+            <img src="imgs/outline_play_arrow_white_24dp.png" alt="play">
+          </div>
+          <div class="stop">
+            <img src="imgs/outline_pause_white_24dp.png" alt="pause">
+          </div> -->
+        </div>
+        <div class="next_arrow_btn hover"></div>
+        <div class="prev_arrow_btn hover"></div>
+      </div>
+    </section>
+
+
+    <section class="category">
+      <div class="inner clear">
+        <ul>
+          <li class="wrap">
+              <img src="imgs/box-bathroom-1.jpg" alt="">
+              <p>Bathroom</p> 
+              <div class="box-btn category-btn">View More</div> 
+          </li>
+          <li class="wrap">
+              <img src="imgs/box-kitchen2-1.jpg" alt="">
+              <p>Kitchen</p> 
+              <div class="box-btn category-btn">View More</div>   
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <!-- empty box -->
+          </li>
+          <li class="wrap">
+              <img src="imgs/box-office-1.jpg" alt="">
+              <p>Office</p> 
+              <div class="box-btn category-btn">View More</div>   
+          </li>
+          <li class="wrap">
+              <img src="imgs/box-bedroom3-1.jpg" alt="">
+              <p>Bedroom</p> 
+              <div class="box-btn category-btn">View More</div>  
+          </li>
+        </ul>
+        <ul class="category-in">
+          <li class="wrap">
+              <img src="imgs/box-dining-1.jpg" alt="">
+              <p>Dining</p> 
+              <div class="box-btn category-btn">View More</div>   
+          </li>
+          <li class="wrap">
+              <img src="imgs/box-outdoor-1.jpg" alt="">
+              <p>Outdoor</p> 
+              <div class="box-btn category-btn">View More</div>   
+          </li>
+        </ul>
+        <ul>
+          <li class="wrap">
+              <img src="imgs/box-livingroom-1.jpg" alt="">
+              <p>Living Room</p> 
+              <div class="box-btn category-btn">View More</div>   
+          </li>
+          <li>
+            <strong> 
+              We look forward to <br/>
+              a better life through<br/>
+              Samsung<br/>
+              Semiconductor’s<br/>
+              green chip
+            </strong>
+          </li>
+        </ul>
+        <div class="last">
+          <h2>Rooms with Ikea</h2>
+          <div class="category-btn last-btn">View More</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="guides">
+      <div class="inner">
+        
+        <div class="tit_wrap clear">
+          <h2 class="title">Quick<br/>Guides</h2>
+          <div class="icons">
+            <a href="#"><i class="fi-rs-box"></i>Product Tips</a>
+            <a href="#"><i class="fi-rs-briefcase"></i>Explore archive</a>
+          </div>
+        </div>
+
+        <div class="video-box clear">
+
+          <div class="video_con video_con01">
+            <div class="video_title">
+              <h3>Good for me<br/>Good for my home</h3>
+              <div class="video-btn">
+                <a href=""> view more <i class="fi-rs-angle-small-right"></i></a>
+              </div>
+            </div>
+            <video src="imgs/ikea video1.mp4" preload="auto" autoplay loop muted></video>
+          </div>
+
+          <div class="video_con video_con02">
+            <div class="video_title">
+              <h3>Tapping into ways<br/>to save water</h3>
+              <div class="video-btn">
+                <a href="">view more <i class="fi-rs-angle-small-right"></i></a>
+              </div>
+            </div>
+            <video src="imgs/ikea video1.mp4" preload="auto" autoplay loop muted></video>
+          </div>
+
+          <div class="video_con video_con03">
+            <div class="video_title">
+              <h3>Waste not,<br/>Want not</h3>
+              <div class="video-btn">
+                <a href="javascript:void">view more <i class="fi-rs-angle-small-right"></i></a>
+              </div>
+            </div>
+            <video src="imgs/ikea video1.mp4" preload="auto" autoplay loop muted></video>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+
+    <section class="recommend_item">
+        <h2>
+          <span>Recommend for you</span><br/>
+          이 달의 추천 상품
+        </h2>
+      <div class="swiper bg_slide">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="imgs/big-couch.png" alt="couch">
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/big-bed.webp" alt="bed">
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/big-table.webp" alt="table">
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/big-armchair.webp" alt="armchair">
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/big-mirror.webp" alt="mirror">
+          </div>
+        </div>
+      </div>
+      
+      <div class="product-swiper">
+        <div class="swiper items-Swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="imgs/re-couch-item.png" alt="">
+              <em>VINLIDEN 빈리덴</em>
+              <a href="">자세히보기<i class="fi-rs-angle-small-right"></i>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <img src="imgs/re-bed-item.png" alt="">
+              <em>HAUGA 하우가</em>
+              <a href="">자세히보기<i class="fi-rs-angle-small-right"></i>
+            </a>
+          </div>
+          <div class="swiper-slide">
+              <img src="imgs/re-table-item.png" alt="">
+              <em>MELLTORP 멜토르프</em>
+              <a href="">자세히보기<i class="fi-rs-angle-small-right"></i>
+                </a>
+            </div>
+            <div class="swiper-slide">
+              <img src="imgs/re-armchair-item.png" alt="">
+              <em>BUSKBO 부스크보</em>
+              <a href="">자세히보기<i class="fi-rs-angle-small-right"></i>
+                </a>
+            </div>
+            <div class="swiper-slide">
+              <img src="imgs/re-mirror-item.png" alt="">
+              <em>LINDBYN 린드뷘</em>
+              <a href="">자세히보기<i class="fi-rs-angle-small-right"></i>
+                </a>
+            </div>
+            
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      
+    </section>
+
+
+    <section class="business">
+      <div class="inner">
+        <h2 class="title"><span>Business Highlight</span> Ikea가 만들어낸 현재, 그리고 미래  </h2>
+          <div class="date_wrap clear">
+            <div class="box">
+              <h4>세계 속의 IKEA store</h4>
+              <em id="num01">456</em><span>개</span>
+            </div>
+            <div class="box">
+              <h4>연간 방문객</h4>
+              <em id="num02">24.7</em><span>%</span>
+            </div>
+            <div class="box">
+              <h4>시장 점유율</h4>
+              <em id="num03">1</em><span>위</span>
+            </div>
+            <div class="box">
+              <h4>누적판매 연간 매출액</h4>
+              <em id="num04">54</em><span>억원</span>
+            </div>
+          </div>
+
+        <a href="" class="animation-btn"><span>비지니스 하이라이트 바로가기</span></a>
+      </div>
+
+    </section>
+
+
+    <section class="news">
+        <div class="inner">
+          <div class="tit_wrap"><h2 class="title">Ikea News</h2></div>
+
+          <ul class="news_list clear">
+            <li>
+              <a href="">
+                <div class="news-img">
+                  <img src="imgs/news-harmoni.webp" alt="">
+                  <em>IKEA Harmoni</em>
+                </div>
+
+                <strong>정돈된 생활</strong>
+                <p>
+                  우리 집이 어떤 모습이 될 수 있는지 탐험해 보는 가이드예요.
+                  집안을 정리 정돈하고 삶에 더 조화로운 느낌을 가져다주기 위한
+                  툴킷이죠. 간단하고 사용하기 쉬워요. 이제 정말 중요한 물건을
+                  위한 공간을 만들어보세요.
+                </p>
+              </a>
+            </li>
+
+            <li>
+              <a href="">
+                <div class="news-img">
+                    <img src="imgs/news-house-interview.webp" alt="">
+                    <em>3rd story<br/>
+                    Interview about house</em>                           
+                </div>
+                
+                <strong>IKEA 직원의 사적인 집터뷰</strong>
+                <p>
+                  집을 잘 아는 사람들의 집을 알아보는 시간,&lt사적인 집터뷰&gt가 돌아왔습니다.
+                  오늘의 주인공은 IKEA 고양점의 글로벌 부부! IKEA 패밀리 스페셜리스트로 일하고
+                  있는 박은주님과 가구 조립 팀 하코보님 입니다.
+                  지금, 이 부부의 사적인 공간을 만나보세요.
+                </p>
+              </a>
+            </li>
+
+            <li>
+              <a href="">
+                <div class="news-img">
+                  <img src="imgs/news-solution.webp" alt="">
+                  <em>Solution</em>
+                </div>
+
+                <strong>쓰레기를 줄여주는 똑똑한 솔루션</strong>
+                <p>
+                쓰레기를 재활용하고 최소한으로 줄이는 일은 환경을 보전하는 데
+                있어 매우 중요합니다. 집안에 분리수거 공간을 만들거나, 
+                필요한 물건만 사용하는 것처럼 모두가 실천할 수 있는 일이 있어요.
+                남은 음식은 냉장고에 보관해두었다가 다음 식사 때 활용해보세요. 
+                지구의 자원을 보호하는 데 도움이 될 수 있어요.
+                </p>
+              </a>
+            </li>
+            
+
+          </ul>
+          
+        </div>
+        <div class="pop-up-bg">
+            <a href="" class="close"><span class="blind">닫기</span></a>
+            <i class="fi-rs-cross"></i>
+          <iframe width="956" height="538" src="https://www.youtube.com/embed/JwTZiK8I1B4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+  </main>
+
+  <footer>
+   
+    <div class="footer-top clear">
+      <div class="inner">
+        <div class="foot_nav">
+          <div class="nav_con">
+            <h3>디지털 쇼룸</h3>
+            <ul>
+              <li><a href="#">침실</a></li>
+              <li><a href="#">거실</a></li>
+              <li><a href="#">주방</a></li>
+              <li><a href="#">다이닝</a></li>
+              <li><a href="#">어린이 IKEA</a></li>
+              <li><a href="#">욕실</a></li>
+              <li><a href="#">홈오피스</a></li>
+              <li><a href="#">현관</a></li>
+              <li><a href="#">아웃도어</a></li>
+              <li><a href="#">IKEA For Business</a></li>
+            </ul>
+          </div>
+          <div class="nav_con">
+            <h3>쇼핑하기</h3>
+            <ul>
+              <li><a href="#">전화 주문</a></li>
+              <li><a href="#">IKEA for Business</a></li>
+              <li><a href="#">셀프 플래닝</a></li>
+              <li><a href="#">IKEA 모바일 앱</a></li>
+              <li><a href="#">IKEA 카탈로그</a></li>
+              <li><a href="#">제품 사용 팁/가이드</a></li>
+              <li><a href="#">결제 옵션</a></li>
+              <li><a href="#">기프트 카드</a></li>
+            </ul>
+          </div>
+          <div class="nav_con">
+            <h3>IKEA 고객 혜택</h3>
+            <ul>
+              <li><a href="#">IKEA 서비스</a></li>
+              <li><a href="#">배송 서비스</a></li>
+              <li><a href="#">조립 서비스</a></li>
+              <li><a href="#">주방 서비스</a></li>
+              <li><a href="#">욕실 서비스</a></li>
+              <li><a href="#">홈퍼니싱 플래닝 서비스</a></li>
+              <li><a href="#">인테리어 디자인 서비스</a></li>
+              <li><a href="#">바이백 서비스</a></li>
+            </ul>
+          </div>
+          <div class="nav_con">
+            <h3>고객 문의</h3>
+            <ul>
+                <li><a href="#">고객지원</a></li>
+                <li><a href="#">자주 묻는 질문</a></li>
+                <li><a href="#">문의하기</a></li>
+                <li><a href="#">배송조회</a></li>
+                <li><a href="#">교환환불</a></li>
+                <li><a href="#">품질보증</a></li>
+                <li><a href="#">제품리콜</a></li>
+                <li><a href="#">제품 구매 가이드</a></li>
+                <li><a href="#">피드백</a></li>
+            </ul>
+          </div>
+          <div class="nav_con">
+            <h3>IKEA 이야기</h3>
+            <ul>
+              <li><a href="#">브랜드 소개</a></li>
+              <li><a href="#">집에서의 삶</a></li>
+              <li><a href="#">지속가능한 생활</a></li>
+              <li><a href="#">뉴스</a></li>
+              <li><a href="#">채용정보</a></li>     
+            </ul>
+          </div>
+          <div class="nav_con">
+            <h3>IKEA 매장</h3>
+            <ul>
+              <li><a href="#">매장 찾기</a></li>
+              <li><a href="#">매장 위치</a></li>
+            </ul>
+          </div>
+        </div>       
+      </div>
+    </div>
+    
+    <div class="footer-sns">
+      <div class="inner">
+          <span>Stay in the loop?</span>
+          <ul>
+            <li>Memory</li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+          </ul>
+          <ul>
+            <li>Memory</li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+          </ul>
+          <ul>
+            <li>Memory</li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+          </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="inner">
+        <ul>
+          <li><a href="#"> 한국어</a></li>
+          <li><a href="#"> ENGLISH</a></li>
+          <li><a href="#"> 中文(简体)</a></li>
+        </ul>
+        
+        <ul>
+          <li><a href="#"> PRIVACY</a></li>
+          <li><a href="#"> LEGAL</a></li>
+          <li><a href="#"> SITEMAP</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </footer>
+  
+</body>
+</html>
