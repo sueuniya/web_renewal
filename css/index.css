@@ -98,10 +98,11 @@
 
 .category .inner ul li img{ width: 100%; height: 100%;}
 .category .inner ul li strong {
- font-size: 25px; line-height: 40px;
+ font-size: 30px; line-height: 38px;
  text-align: left; font-weight: 500;
  display: block; padding: 60px 30px;
- letter-spacing: -1px;
+ letter-spacing: 1px;
+ transition: all .3s;
 }
 .category .inner .last {
   width: calc((100% - 60px) /2);
