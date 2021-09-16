@@ -38,7 +38,8 @@ $(function(){
 
   
   var bg_slide = new Swiper(".bg_slide", {
-    loop: true
+    loop: true,
+    simulateTouch:false
   });
 
   var product_swiper = new Swiper(".items-Swiper", {
